@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import FirstPost from '../pages/index'
+import FirstPost from '../src/pages/index'
 
 export default function Home() {
   return (
