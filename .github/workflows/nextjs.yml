@@ -31,7 +31,7 @@ jobs:
 
     - name: Build my App  
       run: npm run build
-      run: npm run serve
+            npm run serve
       env:
         NEXT_PUBLIC_BASE_PATH: /youtube-2020-august-github-pages-github-actions
     - run: npm run export
