@@ -1,0 +1,20 @@
+.container {
+    max-width: 800px;
+    margin-top: 3%;
+}
+
+.about {
+    font-family: "Roboto",sans-serif;
+}
+
+.heading {
+    border-bottom: 1px solid #424246;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.heading h1 {
+    color: #2698ba;
+    font-size: 5rem;
+}
