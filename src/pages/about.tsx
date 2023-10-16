@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styling/about.css';
 
 function About() {
   return (
