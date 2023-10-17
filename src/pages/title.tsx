@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '../styling/about.css';
+import '../styling/title.css';
 
 function Title() {
   return (

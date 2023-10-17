@@ -1,27 +1,7 @@
-.container {
+.container-about {
     max-width: 800px;
-    padding-top: 3%;
     margin-right: auto;
     margin-left: auto;
-}
-
-.about {
-
-}
-
-.heading {
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 3%;
-}
-
-.heading h1 {
-    color: #2698ba;
-    font-size:3vw;
-}
-
-.heading h2 {
-    font-size:2vw;
 }
 
 .purpose {

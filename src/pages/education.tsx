@@ -1,12 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '../styling/education.css';
 
 function Education() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="container-education">
       <div className="wrapper" ><div className="title" ><h2>Education</h2></div></div>
-      
+      {/* <div className="wrapper">
+      <button onClick={() => setIsOpen(true)}>
+        Open Pop-up
+      </button>
+        {isOpen && (
+        <div>
+          <div>
+            This is the content of the pop-up.
+          </div>
+          <button onClick={() => setIsOpen(false)}>
+            Close Pop-up
+          </button>
+        </div>
+        )}
+      </div> */}
       <div className="wrapper">
             <div className = "nameandgraduation">
               <h3>University of Illinois, Urbana-Champaign</h3>
