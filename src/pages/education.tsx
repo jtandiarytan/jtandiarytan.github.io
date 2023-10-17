@@ -32,7 +32,7 @@ function Education() {
               <h3>GPA 3.71/4.0</h3>
             </div>
             <div className = "courses">
-              <p>Coursework Taken: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Coursework Taken: Artificial Intelligence, Applied Machine Learning, Algorithms, Systems Programming, Programming Languages and Compilers, Computer Architecture, Data Structures, Linear Algebra, Numerical Analysis, Graph Theory</p>
             </div>
         </div>
         <div className="wrapper">
@@ -45,7 +45,7 @@ function Education() {
               <h3>42/45</h3>
             </div>
             <div className = "courses">
-              <p>Coursework Taken: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>Coursework Taken: Mathematics HL, Physics HL, Bahasa Indonesia HL, English SL, Business and Management SL, Chemistry SL</p>
             </div>
         </div>
     </div>
