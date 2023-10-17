@@ -1,20 +1,43 @@
 import React from 'react';
+import '../styling/projects.css';
 
-function About() {
+function Projects() {
   return (
-    <section id="projects">
-      <h2>Projects</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <div>
-        <h3>Project 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <div>
-        <h3>Project 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-    </section>
+    <div className="container-content">
+        <div className="wrapper"><div className="title"><h2>Projects</h2></div></div>
+        <div className="wrapper">
+            <div className="nameandgraduation">
+                <h3>Automated Snooker Counter</h3>
+            </div>
+            <div className="description">
+                <ul>
+                    <li>
+                        Designing an application to record videos of users playing snooker as input and calculating the corresponding player’s
+current score live, automating the tedious process of counting scores in the game.
+                    </li>
+                    <li>
+                        Used Roboflow’s YOLOv5 object detection algorithm to detect different types of objects and actions in the video. 
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div className="wrapper">
+            <div className="nameandgraduation">
+                <h3>Illinois Geometry Lab at University of Illinois, Urbana-Champaign</h3>
+            </div>
+            <div className="description">
+                <ul>
+                    <li>
+                    Built an online course as a part of a 3-member team with the aim of raising high schoolers’ interest in Fractal Geometry.
+                    </li>
+                    <li>
+                    Designed the front end UIX through Canva, which was implemented in React.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
   );
 }
 
-export default About;
+export default Projects;

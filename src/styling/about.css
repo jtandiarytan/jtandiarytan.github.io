@@ -1,14 +1,15 @@
 .container {
     max-width: 800px;
-    margin-top: 3%;
+    padding-top: 3%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .about {
-    font-family: "Roboto",sans-serif;
+
 }
 
 .heading {
-    border-bottom: 1px solid #424246;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 3%;
@@ -16,5 +17,19 @@
 
 .heading h1 {
     color: #2698ba;
-    font-size: 5rem;
+    font-size:3vw;
+}
+
+.heading h2 {
+    font-size:2vw;
+}
+
+.purpose {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }

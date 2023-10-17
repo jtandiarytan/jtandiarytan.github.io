@@ -1,0 +1,27 @@
+.container-education {
+    max-width: 800px;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 1px solid #424246;
+    border-top: 1px solid #424246;
+}
+.title h2 {
+    margin-top:1.5%;
+    margin-bottom:1.5%;
+}
+.wrapper {
+    padding-left:2%;
+    padding-right:2%;
+    margin-bottom:1%;
+}
+.wrapper h3 {
+    margin-top:0px;
+    margin-bottom:0.5%;
+}
+
+.nameandgraduation {
+    display:flex;
+    justify-content: space-between;
+}
