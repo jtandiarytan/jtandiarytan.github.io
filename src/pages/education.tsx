@@ -1,53 +1,72 @@
-import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '../styling/education.css';
+import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import BinusLogo from "./../images/BinusLogo.png";
+import UIUCLogo from "./../images/UIUCLogo.png";
+import "../styling/education.css";
 
 function Education() {
-  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="container-education">
-      <div className="wrapper" ><div className="title" ><h2>Education</h2></div></div>
-      {/* <div className="wrapper">
-      <button onClick={() => setIsOpen(true)}>
-        Open Pop-up
-      </button>
-        {isOpen && (
-        <div>
-          <div>
-            This is the content of the pop-up.
-          </div>
-          <button onClick={() => setIsOpen(false)}>
-            Close Pop-up
-          </button>
-        </div>
-        )}
-      </div> */}
       <div className="wrapper">
-            <div className = "nameandgraduation">
-              <h3>University of Illinois, Urbana-Champaign</h3>
-              <h3>August 2019 - December 2023</h3>
-            </div>
-            <div className = "nameandgraduation">
-              <h3>Bachelor of Science in Mathematics and Computer Science</h3>
-              <h3>GPA 3.71/4.0</h3>
-            </div>
-            <div className = "courses">
-              <p>Coursework Taken: Artificial Intelligence, Applied Machine Learning, Algorithms, Systems Programming, Programming Languages and Compilers, Computer Architecture, Data Structures, Linear Algebra, Numerical Analysis, Graph Theory</p>
-            </div>
+        <div className="title-education">
+          <h2>Education</h2>
         </div>
-        <div className="wrapper">
-            <div className = "nameandgraduation">
-              <h3>Binus School Simprug, Jakarta, Indonesia</h3>
-              <h3>August 2019 - December 2023</h3>
+        <div className="education-content">
+          <a
+            href="https://cs.illinois.edu/academics/undergraduate/degree-program-options/bs-mathematics-computer-science"
+            target="_blank"
+          >
+            <div className="education-entry">
+              <div className="education-image">
+                <img src={UIUCLogo}></img>
+              </div>
+              <div className="education-date">Aug 2019 - Dec 2023</div>
+              <div className="education-data">
+                <div className="education-data-title">
+                  <p>
+                    University of Illinois Urbana-Champaign · B.S. in
+                    Mathematics and Computer Science
+                  </p>
+                </div>
+                <div className="education-data-description">
+                  <p>GPA 3.72/4.0</p>
+                  <p>
+                    Coursework Taken: Artificial Intelligence, Applied Machine
+                    Learning, Algorithms, Systems Programming, Programming
+                    Languages and Compilers, Computer Architecture, Data
+                    Structures, Linear Algebra, Numerical Analysis, Graph Theory
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className = "nameandgraduation">
-              <h3>International Baccalaureate Curriculum</h3>
-              <h3>42/45</h3>
+          </a>
+          <a href="https://simprug.binus.sch.id/" target="_blank">
+            <div className="education-entry">
+              <div className="education-image">
+                <img src={BinusLogo}></img>
+              </div>
+              <div className="education-date">Aug 2019 - Dec 2023</div>
+              <div className="education-data">
+                <div className="education-data-title">
+                  <p>
+                    Binus School Simprug, Jakarta, Indonesia · H.S.
+                    International Baccalaurette Curriculum
+                  </p>
+                </div>
+                <div className="education-data-description">
+                  <p>IB: 42/45</p>
+                  <p>
+                    Coursework Taken: Mathematics HL, Physics HL, Bahasa
+                    Indonesia HL, English SL, Business and Management SL,
+                    Chemistry SL
+                  </p>
+                  <p>HL: Higher Level, SL: Standard Level</p>
+                </div>
+              </div>
             </div>
-            <div className = "courses">
-              <p>Coursework Taken: Mathematics HL, Physics HL, Bahasa Indonesia HL, English SL, Business and Management SL, Chemistry SL</p>
-            </div>
+          </a>
         </div>
+      </div>
     </div>
   );
 }

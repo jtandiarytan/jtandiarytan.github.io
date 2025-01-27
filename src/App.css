@@ -1,25 +1,48 @@
-p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
-  color:  #e8e8e8;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+div,
+li,
+span,
+strong {
+  color: #142d4c;
   font-weight: 300;
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h2 {
+  font-size: 26px;
 }
 
 .App {
-  background-color: #1c1c1d;
+  background-color: #fffbfa;
 }
 
-html { scroll-behavior: smooth; }
+.overall-container {
+  padding-left: 8%;
+  padding-right: 8%;
+  margin: auto;
+  background-color: #fffbfa;
+}
 
 .navbar {
   position: sticky;
   top: 0;
-  background-color: #1c1c1d;
+  background-color: #fffbfa;
+  z-index: 10;
 }
 
-
 a.anchor {
-  display:block;
-  position:relative;
-  top:-9vh;
-  visibility:hidden;
+  display: block;
+  position: relative;
+  top: -9vh;
+  visibility: hidden;
 }

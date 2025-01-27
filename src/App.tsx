@@ -13,30 +13,38 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <SuperSEO title="Jeremy Tandiary" description="Portfolio for Jeremy">
-        <meta name="Jeremy" content="Jeremy" />
-        <meta property="Tandiary" content="Tandiary" />
-      </SuperSEO>
-      <header className="App-header">
-        <Title />
-        <div className="navbar">
-          <Navigation />
-        </div>
-        <About />
-        <div className="offset">
+      <div className="overall-container">
+        {/* <SuperSEO
+          title="Tan Jeremy Tandiary"
+          description="Hi! My name is Tan Jeremy Tandiary, a recently graduated Mathematics and Computer Science major from the University of Illinois at Urbana-Champaign (UIUC). I had multiple experiences as a software engineer, building software in C++, JavaScript, C#, Python and many more for multiple corporations. Visit my portfolio site for more information. "
+        >
+          <meta
+            name="description"
+            content="Hi! My name is Tan Jeremy Tandiary, a recently graduated Mathematics and Computer Science major from the University of Illinois at Urbana-Champaign (UIUC). I had multiple experiences as a software engineer, building software in C++, JavaScript, C#, Python and many more for multiple corporations. Visit my portfolio site for more information. "
+          />
+        </SuperSEO> */}
+        <header className="App-header">
+          <Title />
+          <div className="navbar">
+            <Navigation />
+          </div>
+          <About />
           <a id="Experience" className="anchor"></a>
           <Experience />
-        </div>
-        <div className="offset">
-          <a id="Education" className="anchor"></a>
-          <Education />
-        </div>
-        <div className="offset">
-          <a id="Projects" className="anchor"></a>
-          <Projects />
-        </div>
-        <Skills />
-      </header>
+          <div className="offset">
+            <a id="Education" className="anchor"></a>
+            <Education />
+          </div>
+          <div className="offset">
+            <a id="Projects" className="anchor"></a>
+            <Projects />
+          </div>
+          <div className="offset">
+            <a id="Skills" className="anchor"></a>
+            <Skills />
+          </div>
+        </header>
+      </div>
     </div>
   );
 }

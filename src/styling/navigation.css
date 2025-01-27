@@ -1,29 +1,53 @@
 .container-navigation {
-    max-width: 800px;
-    margin-right: auto;
-    margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .navigation {
-    border-bottom: 1px solid #424246;
-    border-top: 1px solid #424246;
+  border-bottom: 1px solid #424246;
 }
 
-.nav{
-    list-style-type: none;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nav {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav p {
-    margin-left: 1%;
-    margin-right: 1%;
+  margin-left: 1.6%;
+  margin-right: 1.6%;
 }
 
-.nav a{
+.nav a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  color: #3993dd;
+}
+
+.nav a:hover {
+  color: #512289;
+}
+
+@media only screen and (max-width: 480px) {
+  /* For mobile phones: */
+
+  .nav p {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+
+  .nav a {
     text-decoration: none;
-    color: #2698ba;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3993dd;
+  }
+  .nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }

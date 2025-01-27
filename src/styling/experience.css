@@ -1,20 +1,102 @@
 .wrapper {
-    padding-left:2%;
-    padding-right:2%;
-    margin-bottom:1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 1%;
 }
 
-.container-content {
-    max-width: 800px;
-    padding-top: 3%;
-    padding-bottom: 4%;
-    margin-right: auto;
-    margin-left: auto;
-    border-bottom: 1px solid #424246;
-    border-top: 1px solid #424246;
+.title-experience {
+  margin-bottom: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-bottom: 1px solid #424246;
+}
+.title-experience h2 {
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
 }
 
-.title h2 {
-    margin-top:1.5%;
-    margin-bottom:1.5%;
+.container-experience {
+  padding-top: 3%;
+  padding-bottom: 4%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.experience-content a,
+.experience-content a:hover,
+.experience-content a:visited,
+.experience-content a:link,
+.experience-content a:active {
+  text-decoration: none;
+}
+
+.experience-entry {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+  padding: 2%;
+}
+
+.experience-entry:hover {
+  background-color: #f4f3f3;
+  border-radius: 8px;
+}
+
+.experience-date {
+  flex: 1;
+  min-width: 175px;
+}
+
+.experience-data {
+  flex: 4;
+  min-width: 375px;
+}
+
+@media only screen and (max-width: 480px) {
+  /* For mobile phones: */
+  .experience-data {
+    min-width: 100%;
+  }
+  .experience-date {
+    min-width: 100%;
+  }
+}
+
+.experience-data-title p {
+  font-weight: 500;
+}
+
+.experience-entry:hover .experience-data-title p {
+  color: #3993dd;
+}
+
+.experience-data-description {
+  margin-top: 5px;
+}
+
+.experience-skills-list ul {
+  margin-top: 12px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: horizontal;
+}
+
+.experience-skills-list li {
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 20px;
+  background-color: #192b3a;
+  opacity: 75%;
+}
+
+.experience-skills-list p {
+  color: #82e8d0;
+  font-weight: 500;
+  font-size: 13.5px;
 }
